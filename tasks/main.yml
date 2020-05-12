@@ -1,0 +1,6 @@
+---
+- name: Installing pyhelm packages using pip
+  become: true
+  pip:
+    name: "pyhelm"
+    state: present
