@@ -4,3 +4,4 @@
   pip:
     name: "pyhelm"
     state: present
+    executable: pip3.3
